@@ -1,10 +1,4 @@
-Crude proof of concept, using dynamically loaded iframe to communicate with remote backend.
-Uses Flask.
+Two tests for remote ajax calls.
 
-To run (works on MacOS for me, not tested elsewhere but shouldn't be any magic):
-
-
-$ python3 app.py
-
-and then open partner.html in browser.
-
+iframe/ iFrame based approach, see README inside
+cors/ CORS approach, see README inside
