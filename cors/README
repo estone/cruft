@@ -1,0 +1,6 @@
+This test requires two HTTP servers, one to simulate our server configured using CORS, and another to simulate a partner site.
+
+$python3 app.py
+$python3 partner.py
+
+Then visit http://127.0.0.1:5000/partner in a browser

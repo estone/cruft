@@ -1,0 +1,10 @@
+Simple proof of concept, using dynamically loaded iframe to communicate with remote backend.
+Uses Flask.
+
+To run (works on MacOS for me, not tested elsewhere but shouldn't be any magic):
+
+
+$ python3 app.py
+
+and then open partner.html in browser.
+

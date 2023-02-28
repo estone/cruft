@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    // because of the port difference this counts as a completely different origin/domain
+    $.ajax({url: "http://127.0.0.1:5050/ajax", success: function(result){
+      $("#div1").html(result);
+    }});
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="div1"><h2>Ajax request will replace this</h2></div>
+
+<button>Call remote server ajax configured with cors</button>
+
+</body>
+</html>
+
